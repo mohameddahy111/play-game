@@ -1,0 +1,35 @@
+.HeroSection {
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  gap: 30px;
+  background-image: url('https://i.pinimg.com/564x/56/d8/ce/56d8ce1d0a960b12054177f1cd0dc7f8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    position: absolute;
+    opacity: 80%;
+
+  }
+  h1{
+position: relative;
+  }
+  p{
+    position: relative;
+  }
+  span{
+    color: #4183c6;
+  }
+}

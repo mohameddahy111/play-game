@@ -1,0 +1,32 @@
+.linkes {
+  width: 20%;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      a {
+        color: #fff;
+        text-decoration: none;
+        opacity: .9;
+        &:hover{
+            opacity: 1;
+        }
+      }
+      &:nth-child(2) {
+        border: 1px solid #4183c6;
+        border-radius: 10px;
+        a {
+          color: #4183c6;
+        }
+      }
+    }
+  }
+}
+.linkList{
+  ul li a{
+    text-decoration: none;
+    color: #4183c6;
+
+  }
+}
